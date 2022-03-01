@@ -1,0 +1,35 @@
+h1{
+    color: aquamarine;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.container-3x1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}
+
+.container-2plus1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns:  50% 25%;
+}
+
+.miniCon3{
+    padding: 1em;
+    aspect-ratio: 1;
+}
+
+
+.miniCon2{
+    padding: 1em;
+    aspect-ratio: 2;
+}

@@ -1,0 +1,42 @@
+.header{
+    height: 5em;
+    background-color: #040845;
+    opacity: 80%;
+    display: flex;
+    position: sticky;
+    margin-top: 0;
+}
+.navi{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+.ul-header{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.h-li{
+
+}
+.header-link{
+    display: flex;
+    padding: 1em;
+    background-color: #040845;
+    text-align: center;
+    color: floralwhite;
+
+}
+.h-form{
+    position: relative;
+    right: 2em;
+    margin-top: 2em;
+
+}
+.h-searching{
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
+
