@@ -99,3 +99,9 @@ body{
     padding: 1em;
     border-radius: 3vw;
 }
+.info-first-title{
+    text-align: center;
+}
+.info-under-titles{
+    text-align: center;
+}
