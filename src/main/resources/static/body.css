@@ -179,3 +179,28 @@ body{
 .info-under-titles{
     text-align: center;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+.imgwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+}
+
+.txtwrapper{
+    width: 800px;
+    margin-top: 100px;
+    border: solid gray 1px;
+
+}
+.artikelImage{
+    width: 100%;
+}

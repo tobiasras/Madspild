@@ -3,7 +3,9 @@
     background-color: #040845;
     opacity: 80%;
     display: flex;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     margin-top: 0;
 }
 .header img{
