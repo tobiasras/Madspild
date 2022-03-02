@@ -3,6 +3,8 @@ h1{
 }
 
 *{
+    font-family: "Gill Sans MT";
+
     margin: 0;
 }
 
@@ -31,14 +33,16 @@ body{
     margin: 0.5vw;
     padding: 1vw;
     aspect-ratio: 1;
-    background: rgb(192, 228, 248);
+    background: rgb(209, 186, 255);
 }
 
 .teaserArtikel1x1:hover{
     background: rgba(24, 24, 52, 0.68);
 }
 
-.teaserArtikel1x1 h1 {
+.teaserArtikel1x1 h1{
+    font-family: "Source Serif Pro SemiBold";
+    font-style: italic;
     padding-top: 0.5vw;
     color: #181834;
     font-size: 2vw;
