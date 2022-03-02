@@ -26,7 +26,7 @@ body{
     grid-template-columns:  50% 25%;
 }
 
-.teaserArktikel1x1{
+.teaserArtikel1x1{
     border-radius: 0.5vw;
     margin: 0.5vw;
     padding: 1vw;
@@ -34,27 +34,27 @@ body{
     background: rgb(192, 228, 248);
 }
 
-.teaserArktikel1x1:hover{
+.teaserArtikel1x1:hover{
     background: rgba(24, 24, 52, 0.68);
 }
 
-.teaserArktikel1x1 h1 {
+.teaserArtikel1x1 h1 {
     padding-top: 0.5vw;
     color: #181834;
     font-size: 2vw;
 }
-.teaserArktikel1x1 p{
+.teaserArtikel1x1 p{
     padding-right: 30%;
     font-size: 1vw;
     color: #181834;
 }
-.teaserArktikel1x1 a{
+.teaserArtikel1x1 a{
     display: inline-block;
     padding-top: 0.5vw;
     font-size: 1vw;
     color: greenyellow;
 }
-.teaserArktikel1x1 img{
+.teaserArtikel1x1 img{
     border-radius: 0.5vw;
     width: 100%;
     height: 60%;
