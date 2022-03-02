@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MadspildController {
 
     @GetMapping("/")
-public String index(){
-    return "index";
-}
+    public String index(){
+        return "index";
+    }
 
-@GetMapping("/info")
+    @GetMapping("/info")
     public String info(){
         return "info";
-}
+    }
 
 
 }

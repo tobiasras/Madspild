@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" th:href="@{../static/headerAndFooter.css}" href="../static/headerAndFooter.css">
-    <link rel="stylesheet" th:href="@{../static/body.css}" href="../static/body.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <meta charset="UTF-8">
     <title>Info</title>
+    <link rel="stylesheet" href="../static/body.css" th:href="@{body.css}"/>
+    <link rel="stylesheet" href="../static/headerAndFooter.css" th:href="@{headerAndFooter.css}"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
 </head>
+
+<body>
 <header class="header">
     <a href="/" target="_self">
-        <img src="../static/Pictures/yogi.jpg" th:href="@{../static/Pictures/yogi.jpg}" alt="logo">
+        <img src="../static/pictures/yogi.jpg" th:href="@{/pictures/yogi.jpg}" alt="logo"/>
     </a>
     <nav class="navi">
         <ul class="ul-header">
@@ -25,14 +29,14 @@
 
     </form>
 </header>
-<body>
 <h1 class="info-first-title">Information om "Madspild"</h1>
-<h3 class="info-under-titles">Formål Vision Identitet</h3>
+<h3 class="info-under-titles">Formål | Vision | Identitet</h3>
 
 <div class="container-3x1">
     <div class="purpose1x1">
         <h4>Formål</h4>
         <p>Vores formål er at formidle bl bla blabl balb alablabalbal ..</p>
+        <br><br><br><br><br><br>
     </div>
     <div class="empty2">
 
@@ -48,6 +52,7 @@
     <div class="vision1x1">
         <h4>Vision</h4>
         <p>Vores vision er at formidle bl bla blabl balb alablabalbal ..</p>
+        <br><br><br><br><br><br>
     </div>
     <div class="empty6">
 
@@ -63,6 +68,7 @@
     <div class="identity1x1">
         <h4>Identitet</h4>
         <p>Vores identitet er at formidle bl bla blabl balb alablabalbal ..</p>
+        <br><br><br><br><br><br>
     </div>
 </div>
 
