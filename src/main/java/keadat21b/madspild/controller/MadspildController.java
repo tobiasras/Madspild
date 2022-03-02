@@ -11,5 +11,10 @@ public String index(){
     return "index";
 }
 
+@GetMapping("/info")
+    public String info(){
+        return "info";
+}
+
 
 }

@@ -63,3 +63,15 @@ body{
     width: 100%;
     height: 60%;
 }
+.empty{
+    background-color: #040845;
+}
+.purpose1x1{
+    padding: 1em;
+}
+.vision1x1{
+    padding: 1em;
+}
+.identity1x1{
+    padding: 1em;
+}
