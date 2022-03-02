@@ -1,12 +1,11 @@
 .header{
     height: 5em;
+    width: 100%;
     background-color: #040845;
     opacity: 80%;
     display: flex;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    margin-top: 0;
+    position: sticky;
+    top: 0;
 }
 .header img{
     width: 60px;
