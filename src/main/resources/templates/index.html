@@ -9,19 +9,23 @@
 
 
 <header class="header">
+
+    <a href="/" target="_self">
+        <img src="../static/pictures/logo.png" th:src="@{/pictures/logo.png}" alt="logo"/>
+    </a>
     <nav class="navi">
         <ul class="ul-header">
             <li class=h-li><a class="header-link" href="/" target="_self">Hjem</a></li>
             <li class=h-li><a class="header-link" href="/artikler" target="_self">Artikler</a></li>
-            <li class=h-li><a class="header-link" href="/om os" target="_self">Info</a></li>
-            <li class=h-li><a class="header-link" href="/kontakt os" target="_self">Kontakt</a></li>
+            <li class=h-li><a class="header-link" href="/info" target="_self">Info</a></li>
+            <li class=h-li><a class="header-link" href="/kontakt" target="_self">Kontakt</a></li>
 
         </ul>
     </nav>
     <form class="h-form">
         <input class="h-searching" type="text" placeholder="Søg...">
-
     </form>
+
 </header>
 
 
