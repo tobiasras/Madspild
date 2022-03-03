@@ -8,8 +8,14 @@ h1{
 }
 
 body{
-    margin-left: 2vw;
-    margin-right: 2vw;
+
+    /*   Fix Af længde  2vw før*/
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+
     background: cornsilk;
 }
 
