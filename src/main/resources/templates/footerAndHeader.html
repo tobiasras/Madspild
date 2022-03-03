@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" th:href="@{/headerAndFooter.css}" rel="stylesheet" href="../static/headerAndFooter.css">
-    <link rel="stylesheet" th:href="@{/body.css}" rel="stylesheet" href="../static/body.css.css">
+    <link rel="stylesheet" th:href="@{/body.css}" rel="stylesheet" href="../static/body.css">
 </head>
 
 <header class="header">
+    <a href="/" target="_self">
+        <img src="../static/pictures/yogi.jpg" th:href="@{../static/pictures/yogi.jpg}" alt="logo">
+    </a>
     <nav class="navi">
         <ul class="ul-header">
             <li class=h-li><a class="header-link" href="/" target="_self">Hjem</a></li>
             <li class=h-li><a class="header-link" href="/artikler" target="_self">Artikler</a></li>
-            <li class=h-li><a class="header-link" href="/om os" target="_self">Info</a></li>
-            <li class=h-li><a class="header-link" href="/kontakt os" target="_self">Kontakt</a></li>
+            <li class=h-li><a class="header-link" href="/info" target="_self">Info</a></li>
+            <li class=h-li><a class="header-link" href="/kontakt" target="_self">Kontakt</a></li>
 
         </ul>
     </nav>
