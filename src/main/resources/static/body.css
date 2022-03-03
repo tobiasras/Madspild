@@ -23,10 +23,6 @@ body{
     width: 100%;
 }
 
-
-
-
-
 .container-3x1{
     justify-content: center;
     display: grid;
@@ -47,16 +43,19 @@ body{
     color: #181834;
     font-size: 1vw;
     width: 70%;
+    padding-left: 1vw;
 }
 
 .header-1 h1{
     color: #181834;
     font-size: 3vw;
+    padding-left: 1vw;
 }
 
 .header-1 h2{
     color: #181834;
     font-size: 2vw;
+    padding-left: 1vw;
 }
 .teaserArtikelTwo-1x1{
     border-radius: 0.5vw;
@@ -71,10 +70,10 @@ body{
 .teaserArtikelTwo-1x1 h1{
     padding-top: 0.5vw;
     color: #181834;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .teaserArtikelTwo-1x1 p{
-    padding-right: 30%;
+    padding-right: 15%;
     font-size: 1vw;
     color: #181834;
 }
@@ -106,10 +105,10 @@ body{
 .teaserArtikelOne-1x1 h1{
     padding-top: 0.5vw;
     color: #181834;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .teaserArtikelOne-1x1 p{
-    padding-right: 30%;
+    padding-right: 15%;
     font-size: 1vw;
     color: #181834;
 }
@@ -125,6 +124,9 @@ body{
     height: 60%;
 }
 
+
+
+
 .teaserArtikelMain{
     margin: 0.5vw;
     padding: 1vw;
@@ -134,9 +136,36 @@ body{
 
 .teaserArtikelMain img{
     border-radius: 0.5vw;
-    width: auto;
-    height: 60%;
+    width: 100%;
+    height: auto;
+
 }
+
+.teaserArtikelMain h1{
+    font-size: 4vw;
+    color: #181834;
+}
+
+.teaserArtikelMain p{
+    font-size: 1.5vw;
+    color: #181834;
+    padding-right: 20%;
+}
+
+
+.teaserArtikelMain a{
+    display: inline-block;
+    padding-top: 0.5vw;
+    font-size: 1.5vw;
+    color: greenyellow;
+}
+
+
+
+
+
+
+
 .empty2{
     background-color: #040845;
     border-bottom-left-radius: 2vw;
