@@ -242,3 +242,6 @@ body{
 .artikelImage{
     width: 100%;
 }
+#main-body-info{
+    padding-bottom: 4em;
+}
