@@ -9,8 +9,9 @@
 </head>
 
 <header class="header">
+
     <a href="/" target="_self">
-        <img src="../static/pictures/Logo.png" th:src="@{/pictures/Logo.png}" alt="logo">
+        <img src="../static/pictures/logo.png" th:src="@{/pictures/logo.png}" alt="logo"/>
     </a>
     <nav class="navi">
         <ul class="ul-header">
@@ -23,8 +24,8 @@
     </nav>
     <form class="h-form">
         <input class="h-searching" type="text" placeholder="Søg...">
-
     </form>
+
 </header>
 
 <body>
@@ -87,5 +88,15 @@
     </div>
 
 </div>
+
+<br>
+<footer id="footer">
+    <form class="footer-newsletter">
+        <label id="newsletter-label">Nyhedsbrev</label>
+        <input class="newsletter-input" type="text" placeholder="Send os din email her">
+        <button>Tilmeld</button>
+    </form>
+</footer>
+
 </body>
 </html>
