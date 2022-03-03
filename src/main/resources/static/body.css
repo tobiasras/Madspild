@@ -204,9 +204,12 @@ body{
 }
 .info-first-title{
     text-align: center;
+    color: #181834;
+    font-size: 3vw;
 }
 .info-under-titles{
     text-align: center;
+    color: #181834;
 }
 
 .content{
