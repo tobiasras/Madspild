@@ -245,3 +245,15 @@ body{
 #main-body-info{
     padding-bottom: 4em;
 }
+#case-article-link{
+    color: #040845;
+}
+#tech-article-link{
+    color: #040845;
+}
+#tech-article-link:hover{
+    color: darkolivegreen;
+}
+#case-article-link:hover{
+    color: darkolivegreen;
+}
