@@ -8,29 +8,55 @@
     <link rel="stylesheet" th:href="@{/body.css}" rel="stylesheet" href="../static/body.css">
 </head>
 
+<header class="header">
+    <a href="/" target="_self">
+        <img src="../static/pictures/yogi.jpg" th:href="@{../static/pictures/yogi.jpg}" alt="logo">
+    </a>
+    <nav class="navi">
+        <ul class="ul-header">
+            <li class=h-li><a class="header-link" href="/" target="_self">Hjem</a></li>
+            <li class=h-li><a class="header-link" href="/artikler" target="_self">Artikler</a></li>
+            <li class=h-li><a class="header-link" href="/info" target="_self">Info</a></li>
+            <li class=h-li><a class="header-link" href="/kontakt" target="_self">Kontakt</a></li>
+
+        </ul>
+    </nav>
+    <form class="h-form">
+        <input class="h-searching" type="text" placeholder="Søg...">
+
+    </form>
+</header>
+
 <body>
-<h1>Kontakt os</h1>
-<h2>Alt information du skal bruge for os at kontakte os!</h2>
 <div class="container-3x1">
-    <div class="teaserArtikel1x1">
-        <img src="../static/Pictures/ÆbleLæder.jpg">
+    <h1>Kontakt os </h1>
+</div>
+<div class="container-3x1">
+    <h2>Alt information du skal bruge for os at kontakte os!</h2>
+</div>
+<div class="container-3x1">
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/Pictures/Manwithtelephone.jpg">
         <h1>Frank Paulsen</h1>
-        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
-        <p><a href="##"> Læs arktiklen her</a > </p>
+        <p><strong>Jobtitel: </strong>CEO</p>
+        <p><strong>Email:</strong> Frank@mlm.dk   <br></p>
+        <p><strong>TLF:</strong> 66204592 <br></p>
     </div>
 
-    <div class="teaserArtikel1x1">
-        <img src="../static/Pictures/ÆbleLæder.jpg">
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/Pictures/Accountant.jpg">
         <h1>Ole Olsen</h1>
-        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
-        <p><a href="##"> Læs arktiklen her</a > </p>
+        <p><strong>Jobtitel: </strong>Revisor</p>
+        <p><strong>Email:</strong> Ole@mlm.dk   <br></p>
+        <p><strong>TLF:</strong> 64204592 <br></p>
     </div>
 
-    <div class="teaserArtikel1x1">
-        <img src="../static/Pictures/ÆbleLæder.jpg">
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/Pictures/Praktik2.jpg">
         <h1>Egon Petersen</h1>
-        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
-        <p><a href="##"> Læs arktiklen her</a > </p>
+        <p><strong>Jobtitel:</strong> Pratikant</p>
+        <p><strong>Email:</strong> Egon@mlm.dk   <br></p>
+        <p><strong>TLF:</strong> 12324340 <br></p>
     </div>
 </div>
 </body>
