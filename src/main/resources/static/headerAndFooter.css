@@ -49,4 +49,17 @@
     background-color: white;
     text-align: center;
 }
-
+#footer{
+    background-color: #040845;
+    height: 4em;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 1em;
+}
+.footer-newsletter{
+    padding-left: 3em;
+    padding-top: 1em;
+}
+#newsletter-label{
+    color: white;
+}
