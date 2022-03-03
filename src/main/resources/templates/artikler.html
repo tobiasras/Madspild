@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" th:href="@{/headerAndFooter.css}" href="../static/headerAndFooter.css" >
-    <link rel="stylesheet" th:href="@{/body.css}"  href="../static/body.css" >
+    <title>BFS - Artikler</title>
+
+    <link rel="stylesheet" th:href="@{/headerAndFooter.css}" href="../static/headerAndFooter.css">
+    <link rel="stylesheet" th:href="@{/body.css}" href="../static/body.css">
 </head>
 
 <header class="header">
@@ -28,17 +29,81 @@
 </header>
 
 <body>
+
 <h1 class="info-first-title">Tech-artikler | Business-cases</h1>
 <h5 class="info-under-titles">Alle gode planer skal planlægges i detaljen</h5>
 
+<div class="container-3x1">
+    <div class="header-1">
+        <h1>Tech: </h1>
+        <p>til det næste kup eller mod madspild</p>
+    </div>
+</div>
+<div class="container-3x1">
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/pictures/SpaceFLower.jpg" th:src="@{/Pictures/SpaceFLower.jpg}">
+        <h1>Spacewaste</h1>
+        <p>lorem ipsum impsum ipsum lpsum lorem ipsum imloremorem ipsumm lpsum lorem ipsum imlorem imloremorem ipsumm lpsum lorem ipsum imlorem<br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
 
-    <br>
-    <footer id="footer">
-        <form class="footer-newsletter">
-            <label id="newsletter-label">Nyhedsbrev</label>
-            <input class="newsletter-input" type="text" placeholder="Send os din email her">
-            <button>Tilmeld</button>
-        </form>
-    </footer>
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/pictures/ÆbleLæder.jpg" th:src="@{/Pictures/ÆbleLæder.jpg}">
+        <h1>Æble Læder</h1>
+        <p>Flere ton æble skrald går til spilde fra æble juice producenter, her ser du hvordan man tager skraldet og producere æble læder<br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
+
+    <div class="teaserArtikelTwo-1x1">
+        <img src="../static/pictures/Brændevin.jpg" th:src="@{/Pictures/Brændevin.jpg}">
+        <h1>Brændevin</h1>
+        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
+
+</div>
+
+<div class="container-3x1">
+    <div class="header-1">
+        <h1>Case: </h1>
+        <p>forbedring af madspild eller dit kup</p>
+    </div>
+</div>
+
+<div class="container-3x1">
+    <div class="teaserArtikelOne-1x1">
+        <img src="../static/pictures/TaskeAfÆbleLæder.jpg" th:src="@{/Pictures/TaskeAfÆbleLæder.jpg}">
+        <h1>Case: Fra æble til taske</h1>
+        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
+
+    <div class="teaserArtikelOne-1x1">
+        <img src="../static/pictures/CIDERTILBRÆNDEVIND.jpg" th:src="@{/Pictures/CIDERTILBRÆNDEVIND.jpg}">
+        <h1>Case: Cider til Brændevin</h1>
+        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
+
+    <div class="teaserArtikelOne-1x1">
+        <img src="../static/pictures/TooGoodToGo.jpg" th:src="@{/Pictures/TooGoodToGo.jpg}" >
+        <h1>Case: TooGoodToGo</h1>
+        <p>lorem ipsum impsum ipsum lpsum lorem  ipsum imloremorem  ipsumm lpsum lorem  ipsum imlorem  <br></p>
+        <p><a href="##"> Læs arktiklen her</a > </p>
+    </div>
+
+</div>
+
+</div>
+
+<br>
+<footer id="footer">
+    <form class="footer-newsletter">
+        <label id="newsletter-label">Nyhedsbrev</label>
+        <input class="newsletter-input" type="text" placeholder="Send os din email her">
+        <button>Tilmeld</button>
+    </form>
+</footer>
+
 </body>
 </html>
