@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>MLM - Kontakt os</title>
 
-    <link rel="stylesheet" th:href="@{/headerAndFooter.css}" rel="stylesheet" href="../static/headerAndFooter.css">
-    <link rel="stylesheet" th:href="@{/body.css}" rel="stylesheet" href="../static/body.css">
+    <link rel="stylesheet" th:href="@{/headerAndFooter.css}" href="../static/headerAndFooter.css">
+    <link rel="stylesheet" th:href="@{/body.css}" href="../static/body.css">
 </head>
 
 <header class="header">
     <a href="/" target="_self">
-        <img src="../static/pictures/yogi.jpg" th:href="@{../static/pictures/yogi.jpg}" alt="logo">
+        <img src="../static/pictures/yogi.jpg" th:src="@{/pictures/yogi.jpg}" alt="logo">
     </a>
     <nav class="navi">
         <ul class="ul-header">
@@ -36,7 +36,7 @@
 </div>
 <div class="container-3x1">
     <div class="teaserArtikelTwo-1x1">
-        <img src="../static/Pictures/Manwithtelephone.jpg">
+        <img src="../static/Pictures/Manwithtelephone.jpg" th:src="@{/pictures/Manwithtelephone.jpg}">
         <h1>Frank Paulsen</h1>
         <p><strong>Jobtitel: </strong>CEO</p>
         <p><strong>Email:</strong> Frank@mlm.dk   <br></p>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="teaserArtikelTwo-1x1">
-        <img src="../static/Pictures/Accountant.jpg">
+        <img src="../static/Pictures/Accountant.jpg" th:src="@{/pictures/Accountant.jpg}">
         <h1>Ole Olsen</h1>
         <p><strong>Jobtitel: </strong>Revisor</p>
         <p><strong>Email:</strong> Ole@mlm.dk   <br></p>
@@ -52,7 +52,7 @@
     </div>
 
     <div class="teaserArtikelTwo-1x1">
-        <img src="../static/Pictures/Praktik2.jpg">
+        <img src="../static/Pictures/Praktik2.jpg" th:src="@{/pictures/Praktik2.jpg}">
         <h1>Egon Petersen</h1>
         <p><strong>Jobtitel:</strong> Pratikant</p>
         <p><strong>Email:</strong> Egon@mlm.dk   <br></p>

@@ -17,7 +17,7 @@ public class MadspildController {
     }
 
     @GetMapping("/artikler")
-    public String artikel(){
+    public String artikler(){
         return "artikler";
     }
 
