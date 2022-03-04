@@ -146,6 +146,16 @@ body{
     height: auto;
 
 }
+.container-1{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 75%;
+}
+.artikel-1{
+    margin: 0.5vw;
+    padding: 1vw;
+    aspect-ratio: 1;
+}
 
 .teaserArtikelMain h1{
     font-size: 4vw;
@@ -224,7 +234,6 @@ body{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 75px;
 }
 .imgwrapper{
     display: flex;

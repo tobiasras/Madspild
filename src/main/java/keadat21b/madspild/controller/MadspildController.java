@@ -26,5 +26,10 @@ public class MadspildController {
         return "kontakt";
     }
 
+    @GetMapping("/artikel")
+    public String artikel(){
+        return "artikel";
+    }
+
 
 }
