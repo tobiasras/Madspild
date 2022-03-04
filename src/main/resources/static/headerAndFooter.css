@@ -1,7 +1,7 @@
 .header{
     height: 5em;
     width: 100%;
-    background-color: #040845;
+    background-color: #00003c;
     opacity: 100%;
     display: flex;
     position: sticky;
@@ -10,6 +10,9 @@
 .header img{
     width: 60px;
     height: 3em;
+    padding-right: 140px;
+
+    margin-right: 1em;
     margin-top: 1em;
     margin-left: 1em;
 }
@@ -17,6 +20,7 @@
     color: darkolivegreen;
 }
 .navi{
+    position: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +38,7 @@
 .header-link{
     display: flex;
     padding: 1em;
-    background-color: #040845;
+    background-color: #00003c;
     text-align: center;
     color: floralwhite;
 
@@ -51,7 +55,7 @@
     text-align: center;
 }
 #footer{
-    background-color: #040845;
+    background-color: #00003c;
     height: 4em;
     width: 100%;
     position: static;
@@ -59,7 +63,7 @@
     padding-top: 1em;
 }
 #info-footer{
-    background-color: #040845;
+    background-color: #00003c;
     height: 4em;
     width: 100%;
     position: fixed;
@@ -67,7 +71,7 @@
     padding-top: 1em;
 }
 .footer-newsletter{
-    padding-left: 3em;
+    padding-left: 14vw;
     padding-top: 1em;
 }
 #newsletter-label{
